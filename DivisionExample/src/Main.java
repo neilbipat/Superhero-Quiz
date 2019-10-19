@@ -10,17 +10,19 @@ public class Main {
             System.out.println("Please enter the divisor");
             int divisor = scanner.nextInt();
 
+        try {
             division(numerator, divisor);
 
-        System.out.println("Error has happened");
+        }catch (Exception e){
+            System.out.println(e);
     }
 
     public static void division(int numerator, int divisor){
-        try {
+
             float result = numerator / divisor;
             System.out.println("Result of the division is: " + result);
 
-        }catch (Exception e){
+
             System.out.println("ERRORRRRR!!!!");
         }
     }
