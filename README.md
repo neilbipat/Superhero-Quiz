@@ -1,23 +1,20 @@
-# homework12-week4-exceptions
+# Superhero Quiz
 
+### About
 
-## Lab: File Reading and Writing (45 min)
+An assignment during my General Assembly course where I was tasked with creating a quiz about superheros. 
 
-Create an app that quizzes users on superhero trivia. Open the `Superheroes` starter code  and start working from there.
+----
 
-Your app reads the superhero info from an `input.txt` file and stores it in an `ArrayList`. Based on the answers, keep count of every right and wrong one. If the number of right answers is greater than wrong ones, declare the user a winner and write the user's name and the result of the quiz in an `output.txt` file.
+### Tools used
 
-You can refer to the solution code [here](https://www.youtube.com/watch?v=oHg5SJYRHA0).
-***
+Java 
 
-<a name="conclusion"></a>
+----
 
-## Conclusion (5 min)
+### Accomplishments/Challenges Overcame
 
-Exceptions are an important part of keeping our apps running when problems occur. Sometimes, these problems — such as certain file I/O or networking situations — are out of our hands, and we need to be prepared to handle them.
-
-***
-
-### Additional Resources
-- [`try` Blocks](https://docs.oracle.com/javase/tutorial/essential/exceptions/try.html)
-- [`catch` Blocks](https://docs.oracle.com/javase/tutorial/essential/exceptions/catch.html)
+- Learned how to use FileReader and Buffered Reader when dealing with getting information from txt files. 
+- Learned the usefulness of Scanner as it allows for user input on the console.
+- LEarned how to use FileWriter to output text to another file 
+- Greatful for practicing more with loops
